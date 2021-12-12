@@ -22,14 +22,14 @@ function Display() {
 
 
 // Add methods to display prototype( ab hum  jo method add krenge usse prototype ko dikhaynge.)
-// Display.prototype.add = function(){
-//     console.log('adding to UI')
-// }
+Display.prototype.add = function(){
+    console.log('adding to UI')
+}
 
-// Display.prototype.clear = function(){
-//     let libraryForm = document.getElementById('libraryForm');
-//     libraryForm.reset();
-// }
+Display.prototype.clear = function(){
+    let libraryForm = document.getElementById('libraryForm');
+    libraryForm.reset();
+}
 
 
 
@@ -66,8 +66,8 @@ function libraryFormSubmit(e) {
     let book = new Book(name, author, type);
     console.log(book);
 
-    // let display = new display();
-    // display.add(book);
-    // display.clear();
+    let display = new Display();
+    display.add(book);
+    display.clear();
     e.preventDefault();
 }
