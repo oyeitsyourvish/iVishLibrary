@@ -1,4 +1,4 @@
-console.log("hello uncle");
+// --------------------tTHIS IS A NORMAL JAVASCRIPT ------------------------------------
 
 // Todos"
 // 1. Store all the data to the localStorage
